@@ -1,0 +1,15 @@
+{
+  "name": "blacklist",
+  "version": "1.0.0",
+  "description": "Simple To-Do List",
+  "main": "index.js",
+  "repository": "https://github.com/Deathronik/blacklist.git",
+  "author": "Vadim Bema",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.5",
+    "typescript": "^4.2.4"
+  }
+}
