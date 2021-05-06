@@ -11,7 +11,7 @@ app.use(cors())
 app.use(express.json())
 app.use(todoRoutes)
 
-const uri: string = `mongodb+srv://admin:admin@todos.dliv6.mongodb.net/todos?retryWrites=true&w=majority`
+const uri: string = `mongodb+srv://<username>:<password>@<link>?retryWrites=true&w=majority`
 const options = {useNewUrlParser: true, useUnifiedTopilogy: true}
 mongoose.set("useFindAndModify", false)
 
